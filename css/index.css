@@ -1,0 +1,46 @@
+.viemport {
+    display: flex;
+    min-width: 1024px;
+    max-width: 1920px;
+    min-height: 780px;
+    background: url('../image/logo.png') no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 1.1rem 0.25rem 0;
+    color: #fff;
+}
+.colum {
+    flex: 3;
+}
+.colum:nth-child(2) {
+    flex: 4;
+}
+.panel {
+    height: 100px;
+    border: 15px solid yellow;
+    border-image-source: url('/echarts-project/image/border.png');
+    border-image-slice: 51 38 28 132;
+    border-image-width: 51px 38px 28px 132px;
+    border-image-repeat: repeat;
+    margin-bottom: 10px;
+}
+/* .panel .inner{
+  position: absolute;
+}
+.overview{
+  height: 85px;
+} */
+/* .overview ul{
+  display: flex;
+  justify-content: space-between;
+}
+.overview ul li h3{
+  font-size: 20px;
+  color: #fff;
+}
+.overview ul li span{
+  font-size: 5.6px;
+  color: #4c9bfd;
+  position: relative;
+  top: 10px;
+} */
